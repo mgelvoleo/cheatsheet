@@ -1,6 +1,12 @@
 # Check the default 
 ```
 Bash Command
+minikube status
+```
+
+# Check the default 
+```
+Bash Command
 kubectl config current-context
 ```
 

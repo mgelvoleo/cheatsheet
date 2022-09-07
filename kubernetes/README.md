@@ -38,3 +38,45 @@ minikube service hello-minikube
 Bash Command
 minikube stop
 ```
+
+## Start the cluster
+```
+Bash Command
+minikube start --driver=virtualbox [kvm,docker]
+```
+
+kubectl cluster-info
+
+
+kubectl get nodes
+
+
+kubectl get nodes
+
+
+kubectl get pods
+
+kubectl get namespaces
+
+kubectl get pods --namespace=kube-system
+
+## First Pods using nginx alpine
+```
+kubectl run nginx --image=nginx:1.23.1-alpine
+```
+
+
+kubectl desc pod
+
+
+kubectl get pods -o wide
+
+## Delate Pods
+kubectl delete pod nginx
+
+## Create deployment
+kubectl create deployment nginx-deployment --image=nginx
+
+
+kubectl get deployments
+

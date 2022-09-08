@@ -98,4 +98,11 @@ git config --global alias.st status
 git config --global alias.list 'log --oneline'
 ```
 
+## Git Tagging
+```
+git tag
+git tag -a v1.001 -m "version 1.00"
+git tag -a v0.99 -m "version 0.99 add a folder git" d6dfc86
+git show v0.99
+```
 

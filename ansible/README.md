@@ -24,6 +24,22 @@ ansible-playbook --list-tags site.yml
 
 
 
+```
+Ansible Command
+ansible-playbook --tags centos -K site.yml
+```
+
+
+
+```
+Ansible Command
+ansible-playbook --tags "db, apache" -K site.yml
+```
+
+
+
+
+
 
 
 

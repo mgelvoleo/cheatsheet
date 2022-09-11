@@ -80,3 +80,15 @@ kubectl create deployment nginx-deployment --image=nginx
 
 kubectl get deployments
 
+#schedule disable
+kubectl cordon minikube
+
+#schedule disable
+kubectl cordon minikube
+
+
+kubectl get namespace
+
+
+kubectl create namespace prod
+

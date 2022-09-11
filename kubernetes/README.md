@@ -92,3 +92,8 @@ kubectl get namespace
 
 kubectl create namespace prod
 
+## Create namespace using manifest yml
+k create -f namespace-prod.yam
+
+k describe namespace prod
+

@@ -127,4 +127,13 @@ k delete -f v1.yaml
 ## Display the replica 
 k get replicaset
 
+## Display the logs of the pods and a live activity
+k logs -l app=mywebapp
 
+k logs -f -l  app=mywebapp
+
+## Restart Pods
+k rollout restart deployment mydeployment
+
+## Drain Pods
+k drain minikube --ignore-daemonsets=true --force

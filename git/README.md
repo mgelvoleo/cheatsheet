@@ -5,10 +5,13 @@ Command
 git init
 ```
 
-
+## Add file in stage, and using in patch level
 ```
 Command
 git add file
+
+git add -p file
+
 ```
 
 
@@ -50,6 +53,7 @@ git remote add origin https://github.com/sample
 ```
 Command
 git push -u origin main 
+git push --set-upstream origin "name of branch"
 ```
 
 ## Config if the credential was setup  to check
@@ -104,5 +108,10 @@ git tag
 git tag -a v1.001 -m "version 1.00"
 git tag -a v0.99 -m "version 0.99 add a folder git" d6dfc86
 git show v0.99
+```
+
+## Avoid conflict by ignore
+```
+git merge --abort
 ```
 

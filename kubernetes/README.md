@@ -15,18 +15,32 @@ kubectl config current-context
 ```
 Bash Command
 kubectl create deployment hello-minikube --image=k8s.gcr.io/echoserver:1.4
+
 ```
 
+```
+Bash Command
+kubectl create deployment hello-minikube --image=k8s.gcr.io/echoserver:1.4 -n dev
+kubectl get pods -n dev
+k get pods --all-namespaces
+
+
+```
 
 ```
 Bash Command
 kubectl expose deployment hello-minikube --type=NodePort --port=8080
+
+or
+
+k expose deployment hello-minikube --type=LoadBalancer --port=8080 -n dev
 ```
 
 ## It may take a moment, but your deployment will soon show up when you run
 ```
 Bash Command
 kubectl get services hello-minikube
+k get services -n dev
 ```
 ## The easiest way to access this service is to let minikube launch a web browser 
 ```
@@ -71,7 +85,7 @@ kubectl desc pod
 
 kubectl get pods -o wide
 
-## Delate Pods
+## Delete Pods
 kubectl delete pod nginx
 
 ## Create deployment
@@ -80,7 +94,7 @@ kubectl create deployment nginx-deployment --image=nginx
 
 kubectl get deployments
 
-#schedule disable
+## schedule disable
 kubectl cordon minikube
 
 #schedule disable
@@ -96,4 +110,21 @@ kubectl create namespace prod
 k create -f namespace-prod.yam
 
 k describe namespace prod
+
+## Display Event of namespace dev
+k get events -n dev
+
+
+## Make default namespace
+kubectl config set-context --current --namespace=dev
+
+## Create a deployment using manifest file
+k apply -f v1.yaml
+
+## Delete a deployment using manifest file
+k delete -f v1.yaml
+
+## Display the replica 
+k get replicaset
+
 

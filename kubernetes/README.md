@@ -137,3 +137,8 @@ k rollout restart deployment mydeployment
 
 ## Drain Pods
 k drain minikube --ignore-daemonsets=true --force
+
+## Get output in a yaml format
+```
+kubectl run demo --image=nginx --dry-run=client -oyaml
+```

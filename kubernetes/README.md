@@ -142,3 +142,6 @@ k drain minikube --ignore-daemonsets=true --force
 ```
 kubectl run demo --image=nginx --dry-run=client -oyaml
 ```
+
+
+kubectl api-resources

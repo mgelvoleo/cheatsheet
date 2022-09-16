@@ -145,3 +145,19 @@ kubectl run demo --image=nginx --dry-run=client -oyaml
 
 
 kubectl api-resources
+
+
+kubectl api-resources --namespace=false
+
+
+kubectl create ns dev
+
+kubectl create ns testing
+
+kubectl create deploy mgelvoleo --image=nginx
+
+kubectl create deploy mgelvoleo --image=nginx -n dev
+
+kubectl config set-context --current --namespace=dev
+
+kubectl exec -it mgelvoleo -- sh

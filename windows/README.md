@@ -3,7 +3,7 @@
 ## Common windows command
 
 
-Copy Command
+###Copy Command
 
 ```
 :> xcopy folder_destination d:\folder_destination
@@ -12,14 +12,23 @@ Copy Command
 example: C:>\User\mgelvoleo> xcopy Documents d:\Documents /i
 
 
-Change directory
+###Change directory
 ```
 :> cd /d d:
 ```
 
 
-Register the credential of server
+
+``
+
+###Register the credential of server
 
 ```
 net use \\192.168.13.181\IPC$ /user:mgelvoleo
+```
+
+
+###Check the information of Workstation
+```
+:>systeminfo
 ```

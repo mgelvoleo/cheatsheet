@@ -16,3 +16,10 @@ Change directory
 ```
 :> cd /d d:
 ```
+
+
+Register the credential of server
+
+```
+net use \\192.168.13.181\IPC$ /user:mgelvoleo
+```

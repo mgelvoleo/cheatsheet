@@ -34,7 +34,7 @@ net use \\192.168.13.181\IPC$ /user:mgelvoleo
 ```
 
 
-### Turn off the firewall with command 
+### Turn off the firewall in command 
 ```
 :>netsh advfirewall set allprofiles state off/on
 ```

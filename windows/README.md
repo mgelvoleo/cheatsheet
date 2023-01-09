@@ -39,3 +39,19 @@ net use \\192.168.13.181\IPC$ /user:mgelvoleo
 :>netsh advfirewall set allprofiles state off/on
 ```
 
+### Check disk and repair 
+```
+:> chkdsk /r
+```
+
+
+### Repair DLL 
+```
+:> sfc /scannow
+```
+
+### Repair DLL 
+```
+:> sfc /scannow
+```
+

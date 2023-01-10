@@ -55,3 +55,11 @@ net use \\192.168.13.181\IPC$ /user:mgelvoleo
 :> sfc /scannow
 ```
 
+
+
+### Repair DLL 
+```
+:> mstsc /v:192.168.12.251 /w:1700 /h:800
+```
+
+

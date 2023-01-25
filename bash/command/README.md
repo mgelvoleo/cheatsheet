@@ -10,3 +10,10 @@ df -h
 watch df -h
 ```
 
+
+## Make default Editory
+
+```
+
+EDITOR=nano visudo
+```

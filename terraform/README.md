@@ -1,6 +1,12 @@
-Windows Command
+
+# To initialize the scripts
+```
+terraform init
+```
 
 
-cd command
 
-
+# To plan
+```
+terraform plan
+```

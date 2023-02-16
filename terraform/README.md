@@ -28,3 +28,9 @@ terraform apply -auto-approve
 ```
 terraform destroy
 ```
+
+
+# To display the instances 
+```
+terraform show
+```

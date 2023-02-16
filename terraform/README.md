@@ -30,7 +30,7 @@ terraform destroy
 ```
 
 
-# To display the instances 
+# To display the instances configuration
 ```
 terraform show
 ```

@@ -40,3 +40,9 @@ terraform show
 ```
 terraform show
 ```
+
+
+# To correct the line of code block
+```
+terraform show
+```

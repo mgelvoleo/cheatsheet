@@ -34,3 +34,9 @@ terraform destroy
 ```
 terraform show
 ```
+
+
+# To validate the code block
+```
+terraform show
+```

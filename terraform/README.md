@@ -26,7 +26,7 @@ terraform apply -auto-approve
 
 # To remove the instance 
 ```
-terraform destroy
+terraform destroy -target=aws_instance.tfdemoinstance
 ```
 
 
@@ -38,7 +38,7 @@ terraform show
 
 # To validate the code block
 ```
-terraform show
+terraform 
 ```
 
 

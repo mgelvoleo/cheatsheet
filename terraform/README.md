@@ -46,3 +46,10 @@ terraform validate
 ```
 terraform fmt
 ```
+
+
+# To update the state in the infrasture
+```
+terraform refresh
+```
+

@@ -38,7 +38,7 @@ terraform show
 
 # To validate the code block
 ```
-terraform 
+terraform validate
 ```
 
 

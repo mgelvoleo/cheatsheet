@@ -44,5 +44,5 @@ terraform validate
 
 # To correct the line of code block
 ```
-terraform show
+terraform fmt
 ```

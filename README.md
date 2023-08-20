@@ -13,3 +13,4 @@ https://www.youtube.com/@shawnp0wers
 https://www.youtube.com/@kubesimplify
 https://www.youtube.com/@DiveInto
 https://www.youtube.com/@Pythoholic
+https://www.youtube.com/@TechTutorialswithPiyush/playlists

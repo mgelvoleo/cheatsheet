@@ -8,9 +8,10 @@
 
 
 Youtube Subscription
-https://www.youtube.com/@MrDevOps
-https://www.youtube.com/@shawnp0wers
-https://www.youtube.com/@kubesimplify
-https://www.youtube.com/@DiveInto
-https://www.youtube.com/@Pythoholic
-https://www.youtube.com/@TechTutorialswithPiyush/playlists
+1. https://www.youtube.com/@MrDevOps
+2. https://www.youtube.com/@shawnp0wers
+3. https://www.youtube.com/@kubesimplify
+4. https://www.youtube.com/@DiveInto
+5. https://www.youtube.com/@Pythoholic
+6. https://www.youtube.com/@TechTutorialswithPiyush/playlists
+7. https://www.youtube.com/watch?v=amiIcyt-J2A
